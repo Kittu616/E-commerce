@@ -1,2 +1,4 @@
-# E-commerce
-making a full fledged e commerce website 
+storefront - revenue
+emoji_people  - no of people
+personal_injury - joke(figure out)
+memory - how big website

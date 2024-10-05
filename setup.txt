@@ -1,0 +1,51 @@
+npm create vite@latest 
+npm i 
+npm i -D tailwindcss
+npx tailwindcss init
+npm run dev 
+
+clear App.css, index.css and "strictmode in main".
+
+configure tailwind css.js/content to add your files
+                content: ["./src/**/*.{js,jsx,html,css}"],
+
+write this is in index.css 
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+npx tailwindcss -i ./src/index.css -o ./src/App.css --watch (which ever file has above 3 lines and which ever file you want the output.css to be )
+
+
+
+
+make components in src, or is globally needed, make it in root folder
+
+in componenets
+/*
+    import React from "react"
+
+    const Navbar= () => {
+    return (
+
+        <>
+
+        /*content*/
+
+        </>
+
+        )
+    }
+
+    export default Navbar
+*/
+
+for images
+/*
+    import variable from "address"
+
+    <img scr={variable} alt="">
+*/
+
+
+make a profile page too 
