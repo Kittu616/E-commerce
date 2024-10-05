@@ -23,9 +23,12 @@ const Sidebar = () => {
           className=" flex lg:flex-col h-fit lg:h-[100vh] lg:pt-32 px-7 lg:p-6 lg:m-4 gap-2"
           style={{ fontFamily: "Roboto Slab" }}
         >
+          <NavLink to="/login">
+            <span className="material-icons text-white">search</span>
+          </NavLink>
           <NavLink
             className="cursor-default"
-            to="/dashboard"
+            to="/"
             onClick={() => handleTitleChange("Dashboard")}
           >
             <div

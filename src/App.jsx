@@ -20,8 +20,8 @@ function App() {
       <BrowserRouter>
         <Sidebar />
         <Routes>
-          <Route path="/" element={<Login />}></Route>
-          <Route path="/dashboard" element={<Dashboard />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/" element={<Dashboard />}></Route>
           <Route path="/order" element={<Order />}></Route>
           <Route path="/products" element={<Products />}></Route>
           <Route path="/customers" element={<Customers />}></Route>
