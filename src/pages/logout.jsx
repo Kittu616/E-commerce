@@ -7,7 +7,7 @@ const Logout = () => {
 
   const gotologin = () => {
     localStorage.clear();
-    navigation("/");
+    navigation("/login");
   };
 
   return (
